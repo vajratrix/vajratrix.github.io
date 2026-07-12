@@ -1,6 +1,6 @@
 # 🔱 Vajratrix Group
 
-**Official website and open-source home of Vajratrix Group** — a non-profit, open-source collective building free, trustworthy software for the community.
+**Official website and open-source home of Vajratrix Group** — an open-source collective building free, trustworthy software for the community.
 
 🌐 **Live site:** [vajratrix.github.io](https://vajratrix.github.io/)
 📧 **Contact:** connect2vajratrix@gmail.com
@@ -10,7 +10,7 @@
 
 ## About
 
-Vajratrix Group combines three forces — **C. Tech**, **S. Group**, and **P. Info** — under one non-profit vision: *Innovative. Alliance. Excellence.*
+Vajratrix Group combines three forces — **C. Tech**, **S. Group**, and **P. Info** — under one shared vision: *Innovative. Alliance. Excellence.*
 
 We build and maintain free, open-source tools and services, starting with:
 
@@ -21,7 +21,7 @@ More projects are listed on the [Projects](https://vajratrix.github.io/#projects
 
 ## Why Open Source?
 
-As a non-profit, we believe great software shouldn't sit behind a paywall for the people who need it most. Every tool we build here is free to use, and the code behind this website — and our products — is open for anyone to inspect, learn from, and improve.
+We believe great software shouldn't sit behind a paywall for the people who need it most. Every tool we build here is free to use, and the code behind this website — and our products — is open for anyone to inspect, learn from, and improve.
 
 ## Repository Structure
 
