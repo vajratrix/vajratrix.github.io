@@ -28,7 +28,7 @@ export default function TermsOfUse() {
           <p>These terms cover vajratrix.github.io — the Vajratrix Group website itself. Our individual open-source projects (Daily DNA, ExamForge, and future ones like our planned Discussion Forum) may carry their own separate license terms in their respective repositories.</p>
 
           <h4 style={{ color: 'var(--gold)', marginTop: '20px', marginBottom: '8px', fontSize: '0.95rem' }}>Open Source</h4>
-          <p>This website's own source code is open-source under the MIT License — see our <a href="https://github.com/vajratrix/vajratrix.github.io" target="_blank" rel="noopener" style={{ color: 'var(--gold)' }}>GitHub repository</a> for the full license text. You're free to view, fork, and reuse it under those terms.</p>
+          <p>This website's own source code is open-source under the MIT License — see our <a href="https://github.com/vajratrix/vajratrix.github.io/blob/main/LICENSE" target="_blank" rel="noopener" style={{ color: 'var(--gold)' }}>LICENSE file</a> for the full license text. You're free to view, fork, and reuse it under those terms.</p>
 
           <h4 style={{ color: 'var(--gold)', marginTop: '20px', marginBottom: '8px', fontSize: '0.95rem' }}>No Warranty</h4>
           <p>This site and the information on it are provided "as is," without warranty of any kind. As a volunteer-run, non-commercial collective, we make reasonable effort to keep information accurate and the site running, but we can't guarantee uninterrupted availability or that every statement on the site is error-free.</p>
