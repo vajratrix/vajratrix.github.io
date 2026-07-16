@@ -4,8 +4,8 @@ export default function Footer() {
   <div className="footer-top">
     <div>
       <div className="footer-brand-name">VAJRA<span>TRIX</span> GROUP</div>
-      <p className="footer-tagline">Three indestructible forces united as one — delivering technology, strategy, and information solutions that build lasting trust and market presence.</p>
-      <p className="footer-secret">🔱 Sanskrit root: Vajra (indestructible) + Trix (matrix of power)</p>
+      <p className="footer-tagline">Three indestructible forces united as one: delivering technology, strategy, and information solutions that build lasting trust and market presence.</p>
+      <p className="footer-secret">🔱 A multi-disciplinary group built on integrity, precision, and partnership.</p>
       <div className="footer-social" style={{display: 'flex', gap: '0.75rem', marginTop: '1rem'}}>
         <a href="https://github.com/vajratrix" target="_blank" rel="noopener noreferrer" aria-label="Vajratrix on GitHub">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -31,25 +31,23 @@ export default function Footer() {
         <li><a href="#about">About Us</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#activities">Activities</a></li>
       </ul>
     </div>
     <div>
       <div className="footer-col-title">Company</div>
       <ul className="footer-links">
         <li><a href="#team">Our Team</a></li>
-        <li><a href="#feedback">Feedback</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#privacy-policy">Privacy Policy</a></li>
         <li><a href="#terms-of-use">Terms of Use</a></li>
       </ul>
     </div>
     <div>
-      <div className="footer-col-title">Partners</div>
+      <div className="footer-col-title">What We Do</div>
       <ul className="footer-links">
-        <li><a href="#">C. Tech</a></li>
-        <li><a href="#">S. Group</a></li>
-        <li><a href="#">P. Info</a></li>
+        <li><a href="#services">Technology</a></li>
+        <li><a href="#services">Strategy</a></li>
+        <li><a href="#services">Information</a></li>
         <li style={{color: 'var(--muted)', cursor: 'default'}}>Careers <span style={{fontSize: '0.7rem', opacity: 0.7}}>(Coming Soon)</span></li>
         <li style={{color: 'var(--muted)', cursor: 'default'}}>Press Kit <span style={{fontSize: '0.7rem', opacity: 0.7}}>(Coming Soon)</span></li>
       </ul>
