@@ -4,6 +4,7 @@ import { submitForm } from '../utils/submitForm'
 const ENDPOINT = 'https://script.google.com/macros/s/AKfycbwSW9B52m558zV8cPzZqxclRj8Wo6sGII8NGUUZatb-dIC1iKY9F2CrKfDqzAIVATqi5Q/exec'
 
 export default function Contact() {
+  const [rating, setRating] = useState(0)
   const [status, setStatus] = useState<{ sending: boolean; message: string | null; ok: boolean }>({
     sending: false,
     message: null,
@@ -19,7 +20,10 @@ export default function Contact() {
   "Thanks for reaching out - we've received your message and will get back to you soon. 🔱"
 )
     setStatus({ sending: false, message: result.message, ok: result.ok })
-    if (result.ok) e.currentTarget.reset()
+    if (result.ok) {
+      e.currentTarget.reset()
+      setRating(0)
+    }
   }
 
   return (
@@ -31,7 +35,7 @@ export default function Contact() {
       </div>
       <div className="contact-grid">
         <div className="contact-info">
-          <p className="section-desc" style={{ marginBottom: '40px' }}>Ready to collaborate, invest, or explore our services? Our team is available to discuss your needs and build a lasting partnership.</p>
+          <p className="section-desc" style={{ marginBottom: '40px' }}>Ready to collaborate, invest, explore our services, or share feedback? Our team reads every message personally.</p>
           <div className="contact-item">
             <div className="contact-icon">📍</div>
             <div>
@@ -60,13 +64,20 @@ export default function Contact() {
               <div className="contact-detail-val">Technology · Strategy · Information</div>
             </div>
           </div>
+          <div className="contact-item">
+            <div className="contact-icon">⏱️</div>
+            <div>
+              <div className="contact-detail-label">Response Time</div>
+              <div className="contact-detail-val">We typically reply within 1 to 2 business days</div>
+            </div>
+          </div>
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="feed-title" style={{ marginBottom: '24px' }}>Send Us a Message</div>
 
           <input type="hidden" name="_form" value="Contact Form" />
-          {/* Honeypot — real visitors never see or fill this; bots often do */}
+          {/* Honeypot: real visitors never see or fill this; bots often do */}
           <input
             type="text"
             name="_honeypot"
@@ -91,12 +102,29 @@ export default function Contact() {
               <option>Partnership Proposal</option>
               <option>Investment Interest</option>
               <option>Product Purchase</option>
+              <option>Feedback / Suggestion</option>
+              <option>Report an Issue</option>
               <option>General Query</option>
             </select>
           </div>
           <div className="form-group">
+            <label className="form-label">Rate Your Experience (optional)</label>
+            <input type="hidden" name="rating" value={rating} />
+            <div className="rating-row">
+              {[1, 2, 3, 4, 5].map((n) => (
+                <span
+                  key={n}
+                  className={`star${n <= rating ? ' active' : ''}`}
+                  onClick={() => setRating(n)}
+                >
+                  ★
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="form-group">
             <label className="form-label">Message</label>
-            <textarea name="message" className="form-textarea" placeholder="Tell us about your project or query..." required></textarea>
+            <textarea name="message" className="form-textarea" placeholder="Tell us about your project, query, or feedback..." required></textarea>
           </div>
           <button type="submit" className="btn-primary" style={{ width: '100%' }} disabled={status.sending}>
             {status.sending ? 'Sending…' : 'Send Message →'}
