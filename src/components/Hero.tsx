@@ -6,9 +6,7 @@ export default function Hero() {
 
   <div className="hero-eyebrow fade-up">Est. 2025 · Kolkata, India</div>
 
-  <div className="trishul-hero fade-up delay-1">
-    <img src="/assets/logo.svg" width={120} height={120} alt="Vajratrix Group logo" />
-  </div>
+  <img src="/assets/logo.svg" alt="Vajratrix Group emblem" className="hero-emblem fade-up delay-1" />
 
   <h1 className="hero-title fade-up delay-2">VAJRA<span>TRIX</span></h1>
   <div className="hero-sub fade-up delay-2">G R O U P</div>
@@ -30,12 +28,24 @@ export default function Hero() {
       <div className="stat-label">Services Offered</div>
     </div>
     <div className="stat">
-      <div className="stat-num">∞</div>
-      <div className="stat-label">Growth Potential</div>
+      <div className="stat-num">100%</div>
+      <div className="stat-label">Founder-Led</div>
     </div>
     <div className="stat">
       <div className="stat-num">2025</div>
       <div className="stat-label">Founded</div>
+    </div>
+    <div className="stat">
+      <div className="stat-num">Instant</div>
+      <div className="stat-label">Solutions</div>
+    </div>
+    <div className="stat">
+      <div className="stat-num">Proper</div>
+      <div className="stat-label">Guidance</div>
+    </div>
+    <div className="stat">
+      <div className="stat-num">24/7</div>
+      <div className="stat-label">Support</div>
     </div>
   </div>
 </section>
