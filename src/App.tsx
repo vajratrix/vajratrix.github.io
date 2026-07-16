@@ -5,9 +5,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
 import Projects from './components/Projects'
-import Activities from './components/Activities'
 import Team from './components/Team'
-import Feedback from './components/Feedback'
+import Trust from './components/Trust'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -15,7 +14,7 @@ export default function App() {
   // Fade-in-on-scroll for cards/items, same behavior as the original site.
   useEffect(() => {
     const targets = document.querySelectorAll<HTMLElement>(
-      '.service-card, .project-card, .team-card, .pillar, .feed-item'
+      '.service-card, .project-card, .team-card, .pillar, .trust-card'
     )
     targets.forEach((el) => {
       el.style.opacity = '0'
@@ -47,9 +46,8 @@ export default function App() {
       <About />
       <Services />
       <Projects />
-      <Activities />
       <Team />
-      <Feedback />
+      <Trust />
       <Contact />
       <LegalSection />
       <Footer />
