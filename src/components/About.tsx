@@ -6,33 +6,33 @@ export default function About() {
       <div className="section-label">Who We Are</div>
       <h2 className="section-title">Three Forces.<br/><span>One Vision. Infinite Power.</span></h2>
       <div className="gold-line"></div>
-      <p className="section-desc">Vajratrix Group is the convergence of three formidable entities — C. Tech, S. Group, and P. Info — forming an indestructible alliance in technology, strategy, and information services.</p>
+      <p className="section-desc">Vajratrix Group is a technology, strategy, and information services alliance built to help businesses grow smarter, faster, and stronger.</p>
       <br/>
-      <p className="section-desc">Rooted in Sanskrit tradition, our name carries a hidden truth: <em>Vajra</em> (indestructible force) + <em>Trix</em> (matrix of power). Together, we deliver end-to-end solutions that build trust, drive growth, and create lasting impact across industries.</p>
+      <p className="section-desc">Founded in 2025 and headquartered in Kolkata, India, we bring specialized expertise together under one trusted name.</p>
       <br/>
-      <a href="#contact" className="btn-outline" style={{marginTop: '12px'}}>Our Story →</a>
+      <a href="#contact" className="btn-outline" style={{marginTop: '12px'}}>Contact Us →</a>
     </div>
     <div className="about-visual">
       <div className="about-card">
         <div className="pillar">
-          <div className="pillar-icon">CT</div>
+          <div className="pillar-icon">T</div>
           <div>
-            <div className="pillar-name">C. Tech</div>
-            <div className="pillar-desc">Technology backbone — software development, IT infrastructure, and digital innovation powering the group's tech arm.</div>
+            <div className="pillar-name">Technology</div>
+            <div className="pillar-desc">Software, IT infrastructure, and digital innovation.</div>
           </div>
         </div>
         <div className="pillar">
-          <div className="pillar-icon">SG</div>
+          <div className="pillar-icon">S</div>
           <div>
-            <div className="pillar-name">S. Group</div>
-            <div className="pillar-desc">Business strategy, consulting, and multi-domain group operations — the strategic intelligence behind every decision.</div>
+            <div className="pillar-name">Strategy</div>
+            <div className="pillar-desc">Business consulting and growth planning.</div>
           </div>
         </div>
         <div className="pillar">
-          <div className="pillar-icon">PI</div>
+          <div className="pillar-icon">I</div>
           <div>
-            <div className="pillar-name">P. Info</div>
-            <div className="pillar-desc">Information services, data analytics, and knowledge management — ensuring precision and clarity in all operations.</div>
+            <div className="pillar-name">Information</div>
+            <div className="pillar-desc">Data, analytics, and knowledge management.</div>
           </div>
         </div>
       </div>
