@@ -4,9 +4,8 @@ const NAV_ITEMS = [
   { href: '#about', label: 'About' },
   { href: '#services', label: 'Services' },
   { href: '#projects', label: 'Projects' },
-  { href: '#activities', label: 'Activities' },
   { href: '#team', label: 'Team' },
-  { href: '#feedback', label: 'Feedback' },
+  { href: '#legal', label: 'Legal' },
 ]
 
 export default function Navbar() {
@@ -32,7 +31,7 @@ export default function Navbar() {
     <nav>
       <a href="#home" className="nav-logo" onClick={closeMenu}>
         <img src="/assets/logo.svg" className="nav-emblem" alt="Vajratrix Group logo" />
-        <span className="nav-brand">VAJRA<span>TRIX</span></span>
+        <span className="nav-brand">VAJRA<span>TRIX</span> <em>Group</em></span>
       </a>
       <ul className={`nav-links${menuOpen ? ' open' : ''}`}>
         {NAV_ITEMS.map((item) => (
