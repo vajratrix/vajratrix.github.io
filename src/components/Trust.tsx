@@ -26,7 +26,7 @@ export default function Trust() {
     <div className="trust-card">
       <div className="trust-icon">🚀</div>
       <div className="trust-title">Live in Production</div>
-      <p className="trust-desc">Daily DNA and ExamForge are live today: not just concepts on a slide.</p>
+      <p className="trust-desc">Daily DNA is live today, with ExamForge in active development and testing: not just concepts on a slide.</p>
     </div>
     <div className="trust-card">
       <div className="trust-icon">🎯</div>
